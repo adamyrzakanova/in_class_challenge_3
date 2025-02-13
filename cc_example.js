@@ -43,4 +43,22 @@ let inventory = {
     console.log(inventory.Items);//Viewing items remaining.
     //inventory.removeFirstItem(); //Removing the first item
     //console.log(inventory.Items);//Viewing items remaining.
+
+    // Task 7
+
+    let employees = [
+        { name: "Alice", position: "Developer", salary: 70000 },
+        { name: "Bob", position: "Designer", salary: 60000 },
+        { name: "Charlie", position: "Manager", salary: 90000 }
+    ];
+   
+    function findEmployee(employees, name) {
+        return employees.find(employee => employee.name === name);
+    }
+    console.log(findEmployee(employees, "Charlie"));
     
+
+        
+
+
+
