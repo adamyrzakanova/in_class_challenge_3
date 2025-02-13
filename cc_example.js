@@ -13,4 +13,3 @@ function findOrders(orders, orderId) {
 some_order = findOrders(orders, 101);
 console.log(`${some_order.customer} has an order id ${some_order.id} with a total of ${some_order.total}`);
 
-
